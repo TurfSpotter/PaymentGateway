@@ -128,7 +128,7 @@ app.get("/pay", async function (req, res, next) {
     merchantTransactionId: merchantTransactionId,
     merchantUserId: userId,
     amount: amount * 100, // converting to paise
-    redirectUrl: `http://www.turfspotter.com`,
+    redirectUrl: `https://www.turfspotter.com`,
     redirectMode: "REDIRECT",
     mobileNumber: "9999999999",
     paymentInstrument: {
